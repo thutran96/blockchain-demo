@@ -3,7 +3,7 @@
 /////////////////////////
 
 // number of zeros required at front of hash
-var difficultyMajor = 5;
+var difficultyMajor = 4;
 
 // 0-15, maximum (decimal) value of the hex digit after the front
 // 15 means any hex character is allowed next
@@ -11,7 +11,7 @@ var difficultyMajor = 5;
 //    (so the bit-strength is doubled)
 // 0  means only 0x0 can be next
 //    (equivalent to one more difficultyMajor)
-var difficultyMinor = 7;  
+var difficultyMinor = 15;  
 
 var maximumNonce = 8;  // limit the nonce so we don't mine too long
 var pattern = '';
