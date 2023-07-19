@@ -3,7 +3,7 @@
 /////////////////////////
 
 // number of zeros required at front of hash
-var difficultyMajor = 4;
+var difficultyMajor = 8;
 
 // 0-15, maximum (decimal) value of the hex digit after the front
 // 15 means any hex character is allowed next
